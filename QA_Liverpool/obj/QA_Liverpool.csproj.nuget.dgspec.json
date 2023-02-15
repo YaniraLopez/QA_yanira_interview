@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yanira.lopez/Documents/GitHub/QA_yanira_interview/QA_Liverpool/QA_Liverpool.csproj": {}
+  },
+  "projects": {
+    "/Users/yanira.lopez/Documents/GitHub/QA_yanira_interview/QA_Liverpool/QA_Liverpool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yanira.lopez/Documents/GitHub/QA_yanira_interview/QA_Liverpool/QA_Liverpool.csproj",
+        "projectName": "QA_Liverpool",
+        "projectPath": "/Users/yanira.lopez/Documents/GitHub/QA_yanira_interview/QA_Liverpool/QA_Liverpool.csproj",
+        "packagesPath": "/Users/yanira.lopez/.nuget/packages/",
+        "outputPath": "/Users/yanira.lopez/Documents/GitHub/QA_yanira_interview/QA_Liverpool/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yanira.lopez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.4.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[110.0.5481.7700, )"
+            },
+            "Selenium.WebDriver.IEDriver": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "SeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
